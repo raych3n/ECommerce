@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import type { Product } from '../data';
 
 const STEPS = ['Cart', 'Shipping', 'Payment', 'Confirmation'];

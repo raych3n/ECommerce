@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 export const SurveyModal: React.FC<{ onClose: () => void }> = ({ onClose }) => {
   const [submitted, setSubmitted] = useState(false);

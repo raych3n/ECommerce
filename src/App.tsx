@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import { useState, useMemo } from 'react';
 import { MOCK_PRODUCTS, type Product } from './data';
 import { Navbar } from './Components/Navbar';
 import { FacetedSearch } from './Components/FacetedSearch';

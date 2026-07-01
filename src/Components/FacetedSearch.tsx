@@ -1,5 +1,3 @@
-import React from 'react';
-
 interface Filters {
   brand: string[];
   cushion: string[];

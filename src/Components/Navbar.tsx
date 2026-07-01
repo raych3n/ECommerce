@@ -1,5 +1,3 @@
-import React from 'react';
-
 interface NavbarProps {
   cartCount: number;
   onCartClick: () => void;

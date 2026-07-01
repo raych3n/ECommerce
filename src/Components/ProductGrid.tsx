@@ -1,4 +1,3 @@
-import React from 'react';
 import type { Product } from '../data';
 
 export const ProductGrid: React.FC<{ products: Product[], onBuy: (product: Product) => void }> = ({ products, onBuy }) => {
